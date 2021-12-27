@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+.bob{
+    background-color: rgb(173 172 171 / 34%);
+    height: 650px;
+    width: 100%;
+}
+a{
+    text-decoration: blink;
+    color: #1b345c;
+    font-size: 18px;
+}
+.nav{
+    position: fixed;
+    top: 27px;
+    background-color: #1a335b;
+    width: 565px;
+    height: 47px;
+    margin-left: 37px;
+    border-radius: 0px;
+    padding: 8px;
+}
+.vc{
+    float: left;
+    margin: 7px;
+    /* color: black; */
+    font-size: 46px;
+    z-index: 16;
+    position: relative;
+    top: -48px;
+}
+.co, .vi, .con, .inf{
+    float: right;
+    margin: 7px;
+    border: 2px outset #c6c6c6;
+    border-radius: 3px;
+    /* background-color: #587fa4; */
+}
+.secto{
+    background-color: #c6c6c6;
+    width: 75%;
+    height: 85%;
+    position: absolute;
+    top: 75px;
+    left: 24px;
+    z-index: 3;
+    border-radius: 10px;
+}
+.sec1{
+    background-image: url(valerio/bienvenu\,....jfif);
+    height: 173px;
+    position: fixed;
+    left: 24px;
+    top: 96px;
+    z-index: 6;
+    width: 75%;
+    padding-bottom: -7px;
+}
+.aside{
+    border: 1px solid #c6c6c6;
+    width: 209px;
+    position: relative;
+    left: 768px;
+    top: 81px;
+    border-top-right-radius: 27px;
+    z-index: 12;
+}
+.imag{
+    float: left;
+    width: 105px;
+}
+.text{
+    font-size: 12px;
+    color: #1a335b;
+    text-align: justify;
+    padding: 7px;
+    padding-top: 0px;
+}.h1{
+    position: absolute;
+    top: 443px;
+    left: 60px;
+    /* border: 1px solid #d8ff06; */
+    width: 93px;
+    height: 50px;
+    padding-top: -9;
+    padding-left: 13px;
+    color: #d8ff06;
+    text-transform: uppercase;
+    z-index: 8;
+}
+.article{
+    position: absolute;
+    top: 331px;
+    left: 17px;
+    color: rgb(255, 255, 255);
+    border: 1px solid #c6c6c6;
+    width: 354px;
+    height: 133px;
+    text-align: justify;
+    z-index: 8;
+}
+.wew{
+    color: #1a335b;
+    font-weight: bold;
+}
+.co:hover{
+     opacity: 5%;
+     font-weight: bold;
+}
+.con:hover{
+    opacity: 5%;
+    font-weight: bold;
+}
+.vi:hover{
+    opacity: 5%;
+    font-weight: bold;
+}
+.inf:hover{
+    opacity: 5%;
+    font-weight: bold;
+}
+.article{
+    
+}
+/* le <p> en block passe de gauche a droite... une animation circulante... >
+/*p{
+    -webkit-animation: slide 5s linear 0s 3; 
+        animation: slide 5s linear 0s 3;
+}
+@-webkit-keyframes slide {
+    from {
+    left:0 
+    }
+    to {
+    left: 600px 
+    }
+    }
+    @keyframes slide {
+    from {
+    left: 0;
+    }
+    to {
+    left: 600px; 
+    }
+    }*/
+    .h1, .article{
+        -webkit-animation: slide 30s linear 0s 5; 
+            animation: slide 30s linear 0s 5;
+    }
+    /*le meme effet*/
+    @-webkit-keyframes slide {
+        to {
+        -webkit-transform: translate(600px, 0px); 
+            -ms-transform: translate(600px, 0px); 
+                transform: translate(600px, 0px);
+        } 
+        }
+        @keyframes slide {
+        to {
+        -webkit-transform: translate(600px, 0px); 
+            -ms-transform: translate(600px, 0px); 
+                transform: translate(600px, 0px);
+        } 
+        }*/
+.co{
+    position: relative;
+    top: 293px;
+    left: -236px;
+    height: 45px;
+}
+.co button{
+    position: relative;
+    top: -12px;
+    left: -5px;
+    width: 166px;
+}
+button{
+    position: relative;
+    top: 297px;
+    left: -243px;
+    height: 35px;
+    width: 106px;
+}
+.vi{
+    position: relative;
+    top: 295px;
+    left: -242px;
+}
+.vi button{
+    position: relative;
+    top: -19px;
+    left: -5px;
+}
+.co{
+    position: relative;
+    top: 290px;
+    left: -236px;
+    height: 41px;
+}
+.vi a{
+    font-family: cursive;
+    color: #00bcd4;
+    font-size: 33px;
+}
+.co a{    font-family: cursive;
+    color: #00bcd4;
+    font-size: 32px;
+    position: relative;
+    top: 2px;
+}
+.vc a{
+    text-decoration: blink;
+    color: #e2f631;
+    font-size: 53px;
+    position: relative;
+    top: 3px;
+    font-family: auto;
+}
+.con, .inf, a{
+    color: aliceblue;
+    font-size: 23px;
+}
